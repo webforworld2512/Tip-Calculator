@@ -1,0 +1,71 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background: url('Fancy-Foam-Coffee-on-Table.jpg');
+    font-family: Piazzolla;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    /* background: linear-gradient( to left, #F4F269, #5CB270); */
+}
+.bg {
+    /* background-color: rgba(0, 0, 0, 0.445); */
+    /* backdrop-filter: blur(5px); */
+    width: 100%;
+    height: 100vh;
+}
+.calc {
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 40%;
+    height: 80vh;
+    /* border: 2px solid black; */
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    /* */
+}
+h1 {
+    text-align: center;
+    padding: 0.5em;
+}
+.bill-amt, .bill-share, .bill-rate, .tip-amt, .total-amt {
+    text-align: center;
+    margin: 1.5em;
+}
+input {
+    height: 1.5em;
+    border-radius: 10%;
+    border-width: 0;
+    /* background-color: transparent; */
+}
+.rating {
+    margin: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.rating button {
+    width: 2.188em;
+    height: 2.188em;
+    border-radius: 50%;
+    border-width: 0;
+    background-color: transparent;
+}
+ /* #calculate {
+    position: relative;
+    left: 205px;
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 25px;
+    background: #075204;
+    color: #fff;
+    border-width: 0;
+    border-radius: 5px;
+} */
+i {
+    color: #E07A0C;
+}
